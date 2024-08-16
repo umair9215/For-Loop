@@ -30,13 +30,13 @@
 
 //  Assignment Number 03
 
-   let array1 = [3, 4, 5];
-   array1.splice(0, 0, 1, 2);
-//    console.log(array);
-   array1.splice(4, 1);
-   for (let i = 0; i < 1; i++) {
-    console.log(array1);
-   }
+//    let array1 = [3, 4, 5];
+//    array1.splice(0, 0, 1, 2);
+// //    console.log(array);
+//    array1.splice(4, 1);
+//    for (let i = 0; i < 1; i++) {
+//     console.log(array1);
+//    }
 
 //  Assignment Number 04
 //  let array2 = [1, 2, 3, 4, 5];
@@ -44,15 +44,16 @@
 //         if (array2[i] > array2[i - 1]){
                 
 //                 console.log(array2[i]);
-//          }
+//         }
 //  }
 
 
 //  Assignment Number 05
 
-// let array3 = [1, 2, 3, 4, 5];
-// array3.indexOf(3);
-// array3.splice(2, 3);
-// for (let i = 0; i < 1; i++) {
-//         console.log(array3);
-// }
+let array3 = [1, 2, 3, 4, 5];
+let index = array3.indexOf(3);
+let length = array3.length;
+ let newArray = array3.splice(index, length);
+for (let i = 0; i < 1; i++) {
+        console.log(array3);
+}
